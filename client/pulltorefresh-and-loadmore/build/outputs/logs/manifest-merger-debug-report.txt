@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml
+		INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml
+		INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml
+		INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:7:5-43
+INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:7:5-43
+INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:7:5-43
+INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:7:5-43
+INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:7:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml
+		ADDED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:7:5-43
+		INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml:7:15-40
+		INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml
+		INJECTED from /Users/alimjan/TalkersNearby/TNClient/pulltorefresh-and-loadmore/AndroidManifest.xml

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace。 -->
+<mapper namespace="com.tn.mapper.UserMapper">
+	
+  <!-- insert user --> 	
+  <insert id="register" parameterType="user" useGeneratedKeys="true" keyProperty="id">
+  	INSERT INTO user(USERNAME,PHONE,PASSWORD) VALUES(#{username},#{phone},#{password})
+  </insert>
+  <!-- Insert IM token -->
+  <insert id="insertToken" parameterType="TokenResult" useGeneratedKeys="true" keyProperty="id">
+  	INSERT INTO im_token(code, userId, token, errorMessage) VALUES(#{code}, #{userId}, #{token}, #{errorMessage})
+  </insert>
+  
+  <!-- select user -->
+  <select id="findUserById" resultType="User" parameterType="int">
+		SELECT * FROM user WHERE id = #{id}
+	</select>
+	<select id="findUserByEmail" resultType="User" parameterType="java.lang.String">
+		SELECT * FROM user WHERE email = #{email}
+	</select>
+	<select id="findUserByUserName" resultType="User" parameterType="java.lang.String">
+		SELECT * FROM user WHERE username = #{username}
+	</select>
+	<select id="findUserByPhone" resultType="User" parameterType="java.lang.String">
+		SELECT * FROM user WHERE phone = #{phone}
+	</select>
+	<select id="findAllUsers" resultType="User">
+		SELECT username, avatar, tags, distance FROM user LIMIT 20
+	</select>
+	<select id="selectByLimit" resultType="User" parameterType="int">  
+        SELECT username, avatar, phone, tags, distance  
+        FROM user LIMIT #{limit}
+	 </select> 
+	  <select id="selectUserSize" resultType="int">
+	  	SELECT COUNT(*) FROM user;
+	  </select>
+  
+  
+  	<!-- update user password, email or phoone number-->
+  	<update id="modifyPassword" parameterType="user">
+		UPDATE user
+		<set>
+			<if test="password != null">password=#{password}</if>
+		</set>
+		WHERE phone=#{phone}
+	</update>
+	<update id="modifyEmail">
+		UPDATE user SET
+		email=#{newemail}
+		WHERE username=#{username}
+	</update>
+	<update id="modifyPhone">
+		UPDATE user SET
+		phone=#{newphone}
+		WHERE username=#{username}
+	</update>
+	<update id="activateUser">
+		UPDATE user SET
+		status=1
+		WHERE email=#{email}
+	</update>
+	<update id="updateStatusCode">
+		UPDATE user
+		<set>
+			<if test="statuscode != null">statuscode=#{statuscode}</if>
+		</set>
+		WHERE phone=#{phone}
+	</update>
+  
+  <!-- delete user-->
+  <delete id="removeUser" parameterType="int">
+  	DELETE FROM user WHERE id = #{id}
+  </delete>
+  
+</mapper>

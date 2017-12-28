@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/ic_nearby"
+        icon="@drawable/ic_nearby"
+        title="附近人" />
+    <tab
+        id="@+id/ic_message"
+        icon="@drawable/ic_message"
+        title="消息" />
+    <tab
+        id="@+id/ic_me"
+        icon="@drawable/ic_me"
+        title="我的" />
+</tabs>
