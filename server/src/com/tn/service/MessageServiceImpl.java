@@ -20,8 +20,8 @@ public class MessageServiceImpl implements IMessageService{
     static final String domain = "dysmsapi.aliyuncs.com";
 
     // TODO 此处需要替换成开发者自己的AK(在阿里云访问控制台寻找)
-    static final String accessKeyId = "LTAIFOAwY05xhogl";
-    static final String accessKeySecret = "rjNuLQ0THCGm6OsVyCC88rE7CI2Edm";
+    static final String accessKeyId = "";
+    static final String accessKeySecret = "";
     
     //短信签名
     static String  msgSignature = "在线英语角";
